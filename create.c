@@ -40,6 +40,11 @@ void buildList(){
 	strcpy(filename,name);
 	strcat(filename,".md");
 
+	for (int i = 0; i < sizeof(filename); ++i)
+	{
+		if(filename[i]==' ')filename[i]='_';
+	}
+
 	file=fopen(filename,"w");
 	fputs("",file);
 	fclose(file);
