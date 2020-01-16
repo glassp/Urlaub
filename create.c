@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "str_replace.h"
-#include "create.h"
 
 char name[100];
 char filename[103];
