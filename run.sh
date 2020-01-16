@@ -22,5 +22,5 @@ echo "Now uploading your File to Github\n"
 git checkout -b $USER
 git add .
 git commit -m "AUTO-COMMIT: Adding file from Urlaubsplanner"
-git push origin
+git push origin $USER
 echo "Finished \n\n"
