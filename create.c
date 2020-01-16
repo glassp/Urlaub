@@ -107,7 +107,7 @@ int main(int argc, char const *argv[])
 	setDuration();
 	printf("Generating Output file\n");
 	buildList();
-	prinf("Finished with Exit Code 0\n\n");
+	printf("Finished with Exit Code 0\n\n");
 	/* code */
 	return 0;
 }
