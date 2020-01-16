@@ -1,5 +1,5 @@
 #!/bin/bash
-git -v >/dev/null 2>&1
+git --version >/dev/null 2>&1
 GIT=$?
 
 gcc -v >/dev/null 2>&1
