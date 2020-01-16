@@ -10,7 +10,7 @@ unsigned int duration;
 void setName(){
 	char confirm;
 	printf("Wie lautet der Name der Reise?");
-	scanf("%s",&name);
+	scanf("%[^\n]s",&name);
 	printf("Der Reisename ist: %s\n", name);
 	printf("Ist das korrekt? (y|n)\n");
 	while((getchar())!='\n');
