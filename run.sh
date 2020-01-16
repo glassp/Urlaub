@@ -19,8 +19,8 @@ gcc -o Urlaubsplanner create.c -lm
 ./Urlaubsplanner
 
 echo "Now uploading your File to Github\n"
-git checkout -b $USER
-git add .
-git commit -m "AUTO-COMMIT: Adding file from Urlaubsplanner"
-git push origin $USER
-echo "Finished \n\n"
+git checkout -b $USER >/dev/null
+git add . >/dev/null
+git commit -m "AUTO-COMMIT: Adding file from Urlaubsplanner" >/dev/null
+git push origin $USER >/dev/null
+echo -e "Finished \n\n"
