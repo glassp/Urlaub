@@ -83,18 +83,24 @@ void buildList(){
 
 	fputs(" - [ ] Reisepass  \n",file);
 	fputs(" - [ ] Reiseunterlagen (Flugtickets,etc.)  \n",file);
-	fputs(" - [ ] Einverständniserklärung der Eltern  \n\n",file);
+	fputs(" - [ ] Einverständniserklärung der Eltern  \n",file);
+        fputs(" - [ ] Umhängeband für Boardkarte(n)  \n\n",file);
 
-	fputs("# Für Sommerurlaube  \n\n",file);
+	fputs("## Für Sommerurlaube  \n\n",file);
 
 	fputs(" - [ ] Badekleidung (Bikini, Badehose, etc.)  \n",file);
 	fputs(" - [ ] Sonnencreme  \n",file);
 	fputs(" - [ ] AfterSun Lotion  \n\n",file);
 
-	fputs("# Für Winterurlaube  \n\n",file);
+	fputs("## Für Winterurlaube  \n\n",file);
 
 	fputs(" - [ ] Handschuhe  \n",file);
 	fputs(" - [ ] Schaal  \n\n",file);
+
+        fputs("## Für die Sportlichen \n\n",file);
+        fputs(" - [ ] Sportschuhe  \n",file);
+        fputs(" - [ ] Sporthose  \n",file);
+        fputs(" - [ ] Sportshirt \n\n",file);
 
 	fputs("# Notation  \n\n",file);
 
