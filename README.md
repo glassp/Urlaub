@@ -7,7 +7,8 @@ Feel free to fork, clone, etc.
 You need the following tools in your PATH
  - git
  - gcc (for Linux/Unix/Mac)
- - TBA (for Windows)
+ - gcc [as part of MinGW] (for Windows)
+ - OR Windows Subsystem for Linux with gcc for Linux (use this option if you know what you do)
 ## Installing
 Just clone it
 ```bash
