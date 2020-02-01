@@ -92,7 +92,7 @@ void buildList(){
 	fputs(" - [ ] Sonnencreme  \n",file);
 	fputs(" - [ ] AfterSun Lotion  \n",file);
 	fputs(" - [ ] Sonnerbrille  \n",file);
-	fprintf(file," - [ ] %3d kurze Hose  \n\n",(int)ceil(duration/3));
+	fprintf(file," - [ ] %3d kurze Hosen  \n\n",(int)ceil(duration/3));
 
 	fputs("## Für Winterurlaube  \n\n",file);
 
