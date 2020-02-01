@@ -18,7 +18,7 @@ $ git clone https://<your-username>/<forked-repo>.git
 
 Just run the `run` script.  
 For Linux, UNIX use `run.sh`  
-For MAx use `run.command`  
+For MAC use `run.command`  
 For Windows use `run.bat`  
   
 The Program will now ask you some Questions (in German).
