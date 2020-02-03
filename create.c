@@ -91,7 +91,7 @@ void buildList(){
 	fputs(" - [ ] Badekleidung (Bikini, Badehose, etc.)  \n",file);
 	fputs(" - [ ] Sonnencreme  \n",file);
 	fputs(" - [ ] AfterSun Lotion  \n",file);
-	fputs(" - [ ] Sonnerbrille  \n",file);
+	fputs(" - [ ] Sonnenbrille  \n",file);
 	fprintf(file," - [ ] %3d kurze Hosen  \n\n",(int)ceil(duration/3));
 
 	fputs("## Für Winterurlaube  \n\n",file);
