@@ -1,4 +1,4 @@
-echo This does not work yet
+::echo This does not work yet
 @echo off
 gcc -version >nul 2>&1 (
 	REM gcc is in Path
